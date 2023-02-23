@@ -70,8 +70,9 @@ img {
 /* MOBILE */
 @media (min-width: 200px) {
   
-  main > section {
+  main {
     padding-bottom: 10vh;
+    row-gap: 5vh;
   }
 
   main > section > section {
@@ -83,6 +84,43 @@ img {
   .testimonials {
     display: flex;
     flex-direction: column;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials {
+    background-image: url(/img/building-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .testimonials > article {
+    align-items: center;  
+    row-gap: 4vh;
+    padding: 15%;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(10, 10, 10, .8);
+  }
+
+  .testimonials i {
+    font-size: 30px;
+    color: var(--mainColor);
+  }
+
+  .testimonials p {
+    color: white;
+  }
+
+  .testimonials h5 {
+    color: orange;
+  }
+
+  .testimonials span {
+    color: whitesmoke;
+    font-weight: 700;
   }
 
   /* CONTACT */
@@ -172,6 +210,7 @@ img {
     padding: 2vh;
     font-weight: 500;
     border-radius: 25px;
+  
   }
 
   /* FOOTER */
