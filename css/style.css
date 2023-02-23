@@ -58,13 +58,7 @@ header {
 }
 
 header > article {
-  width: 98%;
-  height: 98%;
   padding: 1%;
-}
-
-img {
-  width: 40%;
 }
 
 /* MOBILE */
@@ -91,6 +85,10 @@ img {
     height: 65vh;
   }
 
+  header > article {
+    background-image: linear-gradient(to bottom, rgba(180,0,180,.7), rgba(255,155,0,.8));
+  }
+
   header section {
     display: flex;
     flex-direction: column;
@@ -112,6 +110,7 @@ img {
   header p {
     text-align: center;
     line-height: 1.5;
+    padding-bottom: 5%;
   }
 
   header h1 {
@@ -121,7 +120,7 @@ img {
   header section > a {
     background-color: var(--mainColor);
     color: white;
-    padding: 2%;
+    padding: 3%;
     width: 33%;
     font-size: 14px;
     text-align: center;
