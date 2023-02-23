@@ -419,10 +419,62 @@ header > article {
 /* TABLET */
 @media (min-width: 600px) {
 
+  /* SERVICES */
+  .services {
+    row-gap: 5vh;
+  }
+
+  .services h2 {
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  .services p {
+    width: 60%;
+  }
+
+  .services h6 {
+    width: 20%;
+  }
+
+  .services > section {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2vh;
+  }
+
+  .services aside {
+    padding: 0;
+    width: 40%;
+    height: 22vh;
+    justify-content: center;
+  }
+
+  /* GALLERY */
+  .gallery > section{
+    flex-direction: row;
+  }
+
+  .gallery img {
+    width: 34vh;
+    height: 20vh;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials > article {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
   /* CONTACT */
   .contact > section {
     flex-direction: row;
     column-gap: 2vh;
+  }
+
+  .contact h2 {
+    font-weight: 500;
   }
 
   form textarea {
