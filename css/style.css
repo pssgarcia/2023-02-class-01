@@ -88,6 +88,7 @@ img {
   /* CONTACT */
   .contact {
     align-items: center;
+    row-gap: 5vh;
   }
 
   .contact > section {
@@ -98,7 +99,6 @@ img {
 
   .contact ul {
     row-gap: 3vh;
-    
   }
 
   .contact li {
@@ -126,8 +126,52 @@ img {
     color: dimgray;
   }
 
+  .contact > article {
+    align-items: center;
+    row-gap: 3vh;
+    text-align: center;
+  }
+
+  .contact p {
+    color: darkgray;
+  }
+
   form {
-    width: 100%;
+    width: 96%;
+    align-items: center;
+    row-gap: 4vh;
+  }
+
+  form > aside {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3vh;
+  }
+
+  input {
+    width: 96%;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  textarea {
+    padding: 4px;
+    resize: none;
+    height: 10vh;
+    width: 96%;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  [type="submit"] {
+    background-color: var(--mainColor);
+    width: 55%;
+    color: whitesmoke;
+    border: none;
+    padding: 2vh;
+    font-weight: 500;
+    border-radius: 25px;
   }
 
   /* FOOTER */
