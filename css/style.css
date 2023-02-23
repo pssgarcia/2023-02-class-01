@@ -11,8 +11,7 @@ html {
 }
 
 :root {
-  --mainColor: #AB2F52;
-
+  --mainColor: #AB2F52; 
 }
 
 a {
@@ -221,8 +220,6 @@ header > article {
     font-size: 20px;
   }
 
- 
-
   .services hr {
     width: 30%;
   }
@@ -416,5 +413,52 @@ header > article {
 
   footer a {
     color: whitesmoke;
+  }
+}
+
+/* TABLET */
+@media (min-width: 600px) {
+
+  /* CONTACT */
+  .contact > section {
+    flex-direction: row;
+    column-gap: 2vh;
+  }
+
+  form textarea {
+    width: 85%;
+    height: 7vh;
+  }
+
+  form input {
+    width: 85%;
+  }
+
+  form > aside {
+    width: 86%;
+  }
+
+  form > aside > input {
+    width: 100%;
+  }
+
+  .contact li a:hover {
+    color: var(--mainColor);
+    text-decoration: underline;
+  }
+
+  [type="submit"] {
+    width: 37%;
+    padding: 1vh;
+  }
+
+  [type="submit"]:hover {
+    background-color: white;
+    color: var(--mainColor);
+  }
+  
+  /* FOOTER */
+  footer {
+    padding: 2%;
   }
 }
