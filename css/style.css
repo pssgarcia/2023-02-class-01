@@ -525,19 +525,24 @@ header > article {
   }
 
   /* GALLERY */
-  .gallery > section{
-    flex-direction: row;
+
+  .gallery h6 {
+    width: 30%;
   }
 
   .gallery img {
-    width: 34vh;
-    height: 20vh;
+    width: 50%;
+    height: 25vh;
   }
 
   /* TESTIMONIALS */
   .testimonials > article {
     padding-top: 15%;
     padding-bottom: 15%;
+  }
+
+  .testimonials i {
+    font-size: 40px;
   }
 
   /* CONTACT */
@@ -553,6 +558,7 @@ header > article {
   form textarea {
     width: 85%;
     height: 7vh;
+    border-color: gray;
   }
 
   form input {
@@ -575,6 +581,7 @@ header > article {
   [type="submit"] {
     width: 37%;
     padding: 1vh;
+    transition: .6s;
   }
 
   [type="submit"]:hover {
@@ -586,4 +593,9 @@ header > article {
   footer {
     padding: 2%;
   }
+}
+
+/* DESKTOP */
+@media (min-width : 1000px) {
+
 }
