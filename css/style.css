@@ -602,5 +602,61 @@ header > article {
 
 /* DESKTOP */
 @media (min-width : 1000px) {
+    
+  /* CONTACT */
+  .contact h6 {
+    width: 30%;
+  }
 
+  .contact {
+    row-gap: 10vh;
+    padding-top: 10vh;
+  }
+
+  .contact h2 {
+    font-weight: 400;
+  }
+
+  .contact form {
+    width: 60%;
+  }
+
+  .contact section {
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  form > aside {
+    flex-direction: row;
+    column-gap: 4vh;
+    justify-content: center;
+    width: 80%;
+  }
+
+  form > aside > input {
+    width: 40%;
+  }
+
+  form {
+    justify-content: right;
+  }
+
+  form input {
+    border-bottom: 1px solid gray;
+  }
+
+  form textarea {
+    border-bottom: 1px solid black;
+    height: 12vh;
+  }
+
+  form input,
+  form textarea {
+    width: 70%;
+  }
+  
+  /* FOOTER */
+    footer {
+      padding: 1%;
+    }
 }
