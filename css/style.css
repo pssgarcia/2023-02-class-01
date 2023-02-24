@@ -602,7 +602,29 @@ header > article {
 
 /* DESKTOP */
 @media (min-width : 1000px) {
-    
+  main {
+    row-gap: 8vh;
+  }  
+
+  /* GALLERY */ 
+  .gallery h6 {
+    width: 15%;
+  }
+  
+  .gallery > section {
+    display: block;
+  }
+
+  .gallery img {
+    width: 33.3%;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials > article {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
   /* CONTACT */
   .contact h6 {
     width: 30%;
