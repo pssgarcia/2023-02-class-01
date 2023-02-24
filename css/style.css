@@ -530,7 +530,6 @@ header > article {
   }
 
   /* GALLERY */
-
   .gallery h6 {
     width: 30%;
   }
@@ -605,6 +604,54 @@ header > article {
   main {
     row-gap: 8vh;
   }  
+
+  /* ABOUT */
+  .about h2 {
+    font-weight: 400;
+  }
+
+  .about figure {
+    justify-content: space-between;
+  }
+
+  .about img {
+    width: 35%;
+    height: 48vh;
+  }
+
+  .about figcaption {
+    width: 62%;
+  }
+
+  .about a {
+    width: 20%;
+    padding: 1%;
+  }
+
+  /* SERVICES */
+  .services h2 {
+    font-weight: 400;
+  }
+
+  .services h6 {
+    width: 15%;
+  }
+  
+  .services {
+    row-gap: 12vh;
+    padding-top: 7%;
+  }
+
+  .services > section {
+    flex-direction: row;
+    row-gap: 4vh;
+    column-gap: 4vh;
+  }
+
+  .services aside {
+    width: 28%;
+    height: 40vh;
+  }
 
   /* GALLERY */ 
   .gallery h6 {
