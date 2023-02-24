@@ -7,7 +7,7 @@
 }
 
 html {
-  scroll-behavior: smooth; !important
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -604,6 +604,61 @@ header > article {
   main {
     row-gap: 8vh;
   }  
+
+  /* HEADER */
+  header {
+    height: 80vh
+  }
+
+  header h2 {
+    padding-left: 7%;
+    padding-top: 0;
+    font-weight: 300;
+  }
+
+  header p {
+    padding-bottom: 3%;
+    width: 70%;
+  }
+
+  header section {
+    height: 70vh;
+  }
+
+  header section > a {
+    width: 10%;
+    padding: 1%;
+    transition: .6s;
+    font-weight: 700;
+  }
+
+  header section > a:hover {
+    background-color: white;
+    color: var(--mainColor);
+  }
+
+  /* NAV */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  nav > ul {
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    column-gap: 5vh;    
+  }
+
+  nav a {
+    color: white;
+    font-weight: 700;
+  }
+
+  nav a:hover {
+    color: orange;
+  }
 
   /* ABOUT */
   .about h2 {
